@@ -1,4 +1,14 @@
 import React, { useState, useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHome,
+  faUser,
+  faFileAlt,
+  faImages,
+  faCogs,
+  faChevronDown,
+  faEnvelope
+} from '@fortawesome/free-solid-svg-icons';
 import Home from "./module/Home.jsx";
 import About from './module/About.jsx';
 import Resume from './module/Resume.jsx';
@@ -28,16 +38,27 @@ function App() {
         <button className='menu-button' onClick={handleToggleMenu}>
           <span className={`burger-button ${menuOpen ? 'active' : ''}`}></span>
         </button>
-        <nav className={`overlay-menu ${menuOpen ? 'active' : ''}`}>
-            
+        <div className={`overlay-menu ${menuOpen ? 'active' : ''}`}>
+          <div className="overlay-menu-information">
+            <img className="overlay-menu-information-img" src="/forburger.jpg" alt="web-development image" />
+            <p>Bohdan Parkhomov</p>
+            <div className="overlay-menu-information-social">
+              <a target="_blank" href="https://www.linkedin.com/in/bohdan-parkhomov-dev"><img src="/linkedin.png" alt="" /></a>
+              <a target="_blank" href="https://github.com/Parkhomov"><img src="/github.png" alt="" /></a>
+              <a target="_blank" href="https://t.me/Noname21145"><img src="/telegram.png" alt="" /></a>
+              <a target="_blank" href="https://www.instagram.com/bogdanparkhomov"><img src="/instagram.png" alt="" /></a>
+            </div>
+          </div>
+          <nav>  
             <ul>
-                <li><button className="navigate-button" onClick={() => scrollToSection(home)}>Home</button></li>
-                <li><button className="navigate-button" onClick={() => scrollToSection(about)}>About</button></li>
-                <li><button className="navigate-button" onClick={() => scrollToSection(resume)}>Resume</button></li>
-                <li><button className="navigate-button" onClick={() => scrollToSection(projects)}>Projects</button></li>
-                <li><button className="navigate-button" onClick={() => scrollToSection(contact)}>Contact</button></li>
+                <li><button className="navigate-button" onClick={() => scrollToSection(home)}><FontAwesomeIcon className="padd" icon={faHome} />Home</button></li>
+                <li><button className="navigate-button" onClick={() => scrollToSection(about)}><FontAwesomeIcon className="padd" icon={faUser} />About</button></li>
+                <li><button className="navigate-button" onClick={() => scrollToSection(resume)}> <FontAwesomeIcon className="padd" icon={faFileAlt} />Resume</button></li>
+                <li><button className="navigate-button" onClick={() => scrollToSection(projects)}><FontAwesomeIcon className="padd" icon={faImages} />Projects</button></li>
+                <li><button className="navigate-button" onClick={() => scrollToSection(contact)}>   <FontAwesomeIcon className="padd" icon={faEnvelope} />Contact</button></li>
             </ul>
-        </nav>
+          </nav>
+        </div>
         <div ref={home}>
           <Home />
         </div>

@@ -107,3 +107,34 @@
   .overlay-menu ul li button:hover {
     color: #3498db;
   }
+
+  .overlay-menu-information {
+    width: 14vw;
+    height: 21vh;
+    text-align: center;
+  }
+
+  .overlay-menu-information-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 8px #384857 solid;
+  }
+
+  .overlay-menu-information-social a img {
+    width: 47px;
+    height: 47px;
+    margin: 5px;
+    border: 6px #384857 solid;
+    border-radius: 50%;
+  }
+
+  .overlay-menu-information p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 50;
+  }
+  .padd {
+    padding-right: 11px;
+  }
