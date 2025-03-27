@@ -5,8 +5,6 @@ import {
   faUser,
   faFileAlt,
   faImages,
-  faCogs,
-  faChevronDown,
   faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
 import Home from "./module/Home.jsx";

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .menu-button {
     position: fixed;
@@ -109,8 +110,8 @@
   }
 
   .overlay-menu-information {
-    width: 14vw;
-    height: 21vh;
+    width: 260px;
+    height: 200px;
     text-align: center;
   }
 
