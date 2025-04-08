@@ -7,7 +7,7 @@
     justify-content: center;
     flex-wrap: wrap;
     transition: 1.5s ease-in-out all;
-    background-color: whitesmoke;
+    background-color: #f4fafd;
     opacity: 0;
 }
 
@@ -45,7 +45,7 @@
     width: 12px;
     height: 12px;
     background-color: #fff;
-    border: 1px solid rgb(32, 152, 192);;
+    border: 1px solid rgb(32, 152, 192);
     border-radius: 50%;
 }
 
