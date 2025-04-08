@@ -1,9 +1,33 @@
+import React, { useState, useRef, useEffect } from 'react';
 import "../css/Projects.css"
 
 function Projects() {
+    const [active, setActive] = useState(false);
+        const projectsRef = useRef(null);
+        
+        useEffect(() => {
+            const handleScroll = () => {
+            if (projectsRef.current) {
+                const rect = projectsRef.current.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    setActive(true);
+                    window.removeEventListener('scroll', handleScroll);
+                } else {
+                    setActive(false);
+                }
+            }
+        };
+          
+              window.addEventListener('scroll', handleScroll);
+              handleScroll();
+          
+              return () => {
+                window.removeEventListener('scroll', handleScroll);
+              };
+        }, []);
     return (
         <>
-            <div className="projects-container">
+            <div className={`projects-container ${active ? 'active' : ''}`} ref={projectsRef}>
                 <div className="financeNotebook-container">
                     <h1 className="projects-title">Projects</h1>
                     <hr className="dsa" />

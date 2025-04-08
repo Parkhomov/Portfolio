@@ -6,8 +6,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    transition: 1.5s ease-in-out all;
-    /* opacity: 0; */
+    transition: 1.0s ease-in-out all;
+    opacity: 0;
+}
+.projects-container.active {
+    opacity: 1;
 }
 
 .financeNotebook-container {
