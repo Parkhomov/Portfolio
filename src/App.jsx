@@ -41,10 +41,10 @@ function App() {
             <img className="overlay-menu-information-img" src="/forburger.jpg" alt="web-development image" />
             <p>Bohdan Parkhomov</p>
             <div className="overlay-menu-information-social">
-              <a target="_blank" href="https://www.linkedin.com/in/bohdan-parkhomov-dev"><img src="/linkedin.png" alt="" /></a>
-              <a target="_blank" href="https://github.com/Parkhomov"><img src="/github.png" alt="" /></a>
-              <a target="_blank" href="https://t.me/Noname21145"><img src="/telegram.png" alt="" /></a>
-              <a target="_blank" href="https://www.instagram.com/bogdanparkhomov"><img src="/instagram.png" alt="" /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/bohdan-parkhomov-dev"><img src="/Portfolio/linkedin.png" alt="linkedin" /></a>
+              <a target="_blank" href="https://github.com/Parkhomov"><img src="/Portfolio/github.png" alt="github" /></a>
+              <a target="_blank" href="https://t.me/Noname21145"><img src="/Portfolio/telegram.png" alt="telegram" /></a>
+              <a target="_blank" href="https://www.instagram.com/bogdanparkhomov"><img src="/Portfolio/instagram.png" alt="instagram" /></a>
             </div>
           </div>
           <nav>  

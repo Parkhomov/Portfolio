@@ -33,7 +33,7 @@ function Projects() {
                     <hr className="dsa" />
                     <h2 className="res-title-h2">Finance Notebook </h2>
                     <ul>
-                        <li>Link: <a target="_blank" href="https://parkhomov.github.io/FinanceNotebook/"><img className="project-image" src="/finnotebook.svg" alt="https://parkhomov.github.io/FinanceNotebook/" /></a></li>
+                        <li>Link: <a target="_blank" href="https://parkhomov.github.io/FinanceNotebook/"><img className="project-image" src="/Portfolio/finnotebook.svg" alt="https://parkhomov.github.io/FinanceNotebook/" /></a></li>
                         <li>Description: 
                             <p>• Developed a responsive web application for tracking personal finances. The app allows users 
                                 to record their income and expenses, categorizing them into predefined categories, 
@@ -56,7 +56,7 @@ function Projects() {
                 <div className="movieExplorer-container">
                 <h2 className="res-title-h2">Movie Explorer </h2>
                     <ul>
-                        <li>Link: <a target="_blank" href="https://parkhomov.github.io/MovieExplorer/"><img className="project-image" src="/icon.svg" alt="https://parkhomov.github.io/FinanceNotebook/" /></a></li>
+                        <li>Link: <a target="_blank" href="https://parkhomov.github.io/MovieExplorer/"><img className="project-image" src="/Portfolio/icon.svg" alt="https://parkhomov.github.io/MovieExplorer/" /></a></li>
                         <li>Description: 
                             <p>• Developed an interactive web application for searching movies using the OMDb API for movie information and 
                                 the YouTube API for displaying trailers. The app allows users to search for movies by title, view basic information 
