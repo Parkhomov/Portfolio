@@ -56,7 +56,7 @@ function Projects() {
                 <div className="movieExplorer-container">
                 <h2 className="res-title-h2">Movie Explorer </h2>
                     <ul>
-                        <li>Link: <a target="_blank" href="https://parkhomov.github.io/MovieExplorer/"><img className="project-image" src="/finnotebook.svg" alt="https://parkhomov.github.io/FinanceNotebook/" /></a></li>
+                        <li>Link: <a target="_blank" href="https://parkhomov.github.io/MovieExplorer/"><img className="project-image" src="/icon.svg" alt="https://parkhomov.github.io/FinanceNotebook/" /></a></li>
                         <li>Description: 
                             <p>• Developed an interactive web application for searching movies using the OMDb API for movie information and 
                                 the YouTube API for displaying trailers. The app allows users to search for movies by title, view basic information 

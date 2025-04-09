@@ -53,7 +53,7 @@ function App() {
                 <li><button className="navigate-button" onClick={() => scrollToSection(about)}><FontAwesomeIcon className="padd" icon={faUser} />About</button></li>
                 <li><button className="navigate-button" onClick={() => scrollToSection(resume)}> <FontAwesomeIcon className="padd" icon={faFileAlt} />Resume</button></li>
                 <li><button className="navigate-button" onClick={() => scrollToSection(projects)}><FontAwesomeIcon className="padd" icon={faImages} />Projects</button></li>
-                <li><button className="navigate-button" onClick={() => scrollToSection(contact)}>   <FontAwesomeIcon className="padd" icon={faEnvelope} />Contact</button></li>
+                {/* <li><button className="navigate-button" onClick={() => scrollToSection(contact)}>   <FontAwesomeIcon className="padd" icon={faEnvelope} />Contact</button></li> */}
             </ul>
           </nav>
         </div>
@@ -69,9 +69,9 @@ function App() {
         <div ref={projects}>
           <Projects />
         </div>
-        <div ref={contact}>
+        {/* <div ref={contact}>
           <Contact />
-        </div>
+        </div> */}
         </>
     )
 }
