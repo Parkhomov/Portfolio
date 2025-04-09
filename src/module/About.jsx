@@ -38,7 +38,7 @@ function About() {
                         technical proficiency.
                     </p>
                     <div className="about-info-container">
-                        <img className="about-img" src="/forburger.jpg" alt="" />
+                        <img className="about-img" src="/Portfolio/forburger.jpg" alt="" />
                         <div className="about-info-1">
                             <ul>
                                 <li>Birthday: <p>14 February 2005</p></li>
