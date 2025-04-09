@@ -38,7 +38,7 @@ function App() {
         </button>
         <div className={`overlay-menu ${menuOpen ? 'active' : ''}`}>
           <div className="overlay-menu-information">
-            <img className="overlay-menu-information-img" src="/Porfolio/forburger.jpg" alt="web-development image" />
+            <img className="overlay-menu-information-img" src="/Portfolio/forburger.jpg" alt="web-development image" />
             <p>Bohdan Parkhomov</p>
             <div className="overlay-menu-information-social">
               <a target="_blank" href="https://www.linkedin.com/in/bohdan-parkhomov-dev"><img src="/Portfolio/linkedin.png" alt="linkedin" /></a>
