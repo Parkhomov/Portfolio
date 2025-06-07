@@ -27,7 +27,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.res-sumary, .res-education, .res-skils, .res-prof, .res-lang {
+.res-sumary, .res-education, .res-skils, .res-prof, .res-lang, .res-experince {
     width: 100%;
     max-width: 600px;
     height: auto;
@@ -39,7 +39,7 @@
     margin-left: 30px;
 }
 
-.res-sumary::before, .res-education::before, .res-skils::before, .res-prof::before, .res-lang::before {
+.res-sumary::before, .res-education::before, .res-skils::before, .res-prof::before, .res-lang::before, .res-experince::before {
     content: "";
     display: block;
     width: 12px;
@@ -53,7 +53,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 7px;
 }
-.res-sumary-text, .res-education-text, .res-skil-text, .res-prof-text, .res-lang-text {
+.res-sumary-text, .res-education-text, .res-skil-text, .res-prof-text, .res-lang-text, .res-experince-text {
     border-left: 2px solid rgb(32, 152, 192);
     margin: 6px;
     margin-top: 0;

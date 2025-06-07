@@ -34,12 +34,21 @@ function Resume() {
                     <h2 className="res-title-h2">Summary</h2>
                     <div className="res-sumary">
                         <p className="res-sumary-text">
-                            I'm Bohdan Parkhomov, a motivated Front-End Developer specializing in HTML, CSS, JavaScript, TypeScript and React. 
-                            I have hands-on experience with React, creating dynamic interfaces and integrating REST APIs.
-                            I am proficient with Git, Visual Studio Code, and Chrome DevTools. Passionate about continuous learning, 
-                            I've recently completed Front-End courses at EPAM.
-                            Currently pursuing a Bachelor's Degree in Computer Science 
-                            at Petro Mohyla Black Sea National University (graduation in 2026).
+                            Results-driven Front-End Developer with six months of experience building and 
+                            optimizing booking platforms using React and TypeScript. Skilled in crafting responsive, 
+                            accessible interfaces, integrating REST APIs, and improving load times through code-splitting and lazy loading. 
+                            Committed to delivering seamless user experiences and continuously growing technical expertise.
+                        </p>
+                    </div>
+                    <h2 className="res-title-h2">Experience</h2>
+                    <div className="res-experince">
+                        <p className="res-experince-text">
+                           Front-End Developer | Your Price Booking <br />
+                            February 2025 – Present, Remote, Ukraine <br />
+                            - Developed and maintained booking components using React and TypeScript. <br />
+                            - Integrated RESTful APIs for booking data and payment methods. <br />
+                            - Ensured responsive design with SCSS and CSS best practices. <br />
+                            - Collaborated with design team to implement smooth animations and improve UX <br />
                         </p>
                     </div>
                     <h2 className="res-title-h2">Education</h2>
@@ -47,7 +56,7 @@ function Resume() {
                         <p className="res-education-text">
                             Bachelor’s Degree in Computer Science
                             Petro Mohyla Black Sea National University, Mykolaiv, Ukraine (2022 – 2026, expected)
-                            Part-time (extramural) student
+                            Part-time (extramural) student.
                         </p>
                     </div>
                 </div>
