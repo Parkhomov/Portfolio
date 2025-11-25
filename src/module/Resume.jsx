@@ -44,7 +44,7 @@ function Resume() {
                     <div className="res-experince">
                         <p className="res-experince-text">
                            Front-End Developer | Your Price Booking <br />
-                            February 2025 – Present, Remote, Ukraine <br />
+                            February 2025 – June 2025, Remote, Ukraine <br />
                             - Developed and maintained booking components using React and TypeScript. <br />
                             - Integrated RESTful APIs for booking data and payment methods. <br />
                             - Ensured responsive design with SCSS and CSS best practices. <br />
@@ -75,8 +75,11 @@ function Resume() {
                     <h2 className="res-title-h2">Professional Development</h2>
                     <div className="res-prof">                        
                         <p className="res-prof-text">
-                        Completed EPAM Front-End Development courses.
-                        Actively engaged in self-study for continuous skill improvement
+                            EPAM Campus - Completed an online Front-End Development training program.
+                            Studied core web technologies (HTML5, CSS3/SCSS, JavaScript, TypeScript) and applied them in practice by 
+                            building responsive, accessible web pages and a small e-commerce project. Gained experience 
+                            with modular architecture, Git, basic tooling 
+                            (npm, linters, preprocessors) and best practices in clean, maintainable code.
                         </p>
                     </div>
                     <h2 className="res-title-h2">Languages</h2>

@@ -50,7 +50,7 @@ function About() {
                             <ul>
                                 <li>Age: <p>20</p></li>
                                 <li>Education: <p>Bachelor's student, graduating in 2026</p></li>
-                                <li>Email: <p>parkhomov21@gmail.com</p></li>
+                                <li>Email: <p>frontenddevelop21@gmail.com</p></li>
                             </ul>
                         </div>
                         <div>

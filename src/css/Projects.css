@@ -22,7 +22,12 @@
     margin: 5px;
 }
 
-
+.travelShop-container {
+    width: 49%;
+    height: auto;
+    min-height: 50vh;
+    margin: 5px;
+}
 
 .movieExplorer-container {
     max-width: 49%;
@@ -34,7 +39,7 @@
 }
 
 @media screen and (max-width: 998px) {
-    .financeNotebook-container, .movieExplorer-container {
+    .financeNotebook-container, .movieExplorer-container, .travelShop-container {
         max-width: 99%;
     }
 }
@@ -59,7 +64,7 @@
     text-align: center;
 }
 
-.financeNotebook-container ul, .movieExplorer-container ul {
+.financeNotebook-container ul, .movieExplorer-container ul, .travelShop-container ul {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 7px;
     padding: 5px;
@@ -67,11 +72,11 @@
     font-weight: 800;
     list-style: none;
 }
-.financeNotebook-container ul li, .movieExplorer-container ul li {
+.financeNotebook-container ul li, .movieExplorer-container ul li, .travelShop-container ul li {
     padding: 10px;
 }
 
-.financeNotebook-container ul li p, .movieExplorer-container ul li p {
+.financeNotebook-container ul li p, .movieExplorer-container ul li p, .travelShop-container ul li p {
     font-weight: 400;
 }
 
